@@ -17,4 +17,4 @@ print("Los participantes son: ")
 for usr in lUsuarios:
     print(usr)
 
-print(f"\n\nO usuario chamado {lUsuarios[random.randint(0, 15)]["nome"]} foi o afortunado")
+print(f"\n\nO usuario chamado {lUsuarios[random.randint(0, 14)]["nome"]} foi o afortunado")
