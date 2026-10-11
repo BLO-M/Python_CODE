@@ -1,3 +1,4 @@
+import random
 from faker import Faker
 
 fake = Faker('es.Es')
@@ -16,3 +17,4 @@ print("Los participantes son: ")
 for usr in lUsuarios:
     print(usr)
 
+print(f"\n\nO usuario chamado {lUsuarios[random.randint(0, 15)]["nome"]} foi o afortunado")
